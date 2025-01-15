@@ -40,15 +40,15 @@ pip install flask flask-sqlalchemy
 
 ## Create Folder Structure: 
 
-expense_tracker/
-|----- app/
-|        |-----  _init_.py
-|        |-----models.py
-|        |-----routes.py
-|----- tests/
-|-----requirements.txt
-|-----app.py
-|___ README.md
+expense_tracker/  
+|----- app/  
+|        |-----  _init_.py  
+|        |-----models.py    
+|        |-----routes.py 
+|----- tests/  
+|-----requirements.txt  
+|-----app.py  
+|___ README.md  
 
 ## Set up Virtual Environment  - in Terminal  
 python -m venv expense_tracker_env  
