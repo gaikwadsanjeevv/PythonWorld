@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <!-- Use url_for to load the static files -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+    <form id="expenseForm">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" required>
+        <label for="description">Description:</label>
+        <input type="text" id="description">
+        <label for="category">Category:</label>
+        <input type="text" id="category">
+        <label for="date">Date:</label>
+        <input type="datetime-local" id="date" required>
+        <button type="submit">Add Expense</button>
+    </form>
+    <div id="expenses"></div>
+    <!-- Use url_for to load the static JS file -->
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
