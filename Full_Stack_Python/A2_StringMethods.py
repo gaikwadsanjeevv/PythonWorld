@@ -16,5 +16,5 @@ message = '{},{}'.format(greeting,name)
 message = f'{greeting},{name.upper()}'
 print(message)
 ##print(dir(message)) -- gives list of all methods available for the datatype variable
-##print(help(str)) -- give more details of the any particular method
-print(help(str.lower))
+##print(help(str)) -- give more details of the any particular Data type
+##print(help(str.lower)) -- give more details of the any particular method
