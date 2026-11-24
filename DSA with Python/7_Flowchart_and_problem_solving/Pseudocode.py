@@ -1,13 +1,10 @@
 '''
 
-Begin
-    Input FirstNumber
-    Input SecondNumber
+list of nmbers find greater
+set largest = 1st element
+if element > largest:
+set largest = element
 
-    SUM = FirstNumber + SecondNumber
-
-    print SUM
-
-End
+Return largest
 
 '''
